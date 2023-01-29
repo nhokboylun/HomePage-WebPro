@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: #ccc;
+}
+
+body {
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.7),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url("./background.jpg");
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #9997d37d;
+}
+
+.link1:link,
+.link1:visited {
+  color: #333;
+}
+
+.link1:hover,
+.link1:active {
+  color: #e67e22;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 36px;
+  color: #333;
+}
+
+.main-part {
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  justify-items: center;
+}
+
+.main-part-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25fr 30fr 30fr;
+  grid-template-rows: 25fr 75fr;
+  justify-items: center;
+}
+
+.main-part-2 {
+  width: 50%;
+  margin: 50px 0;
+  grid-column: 1/-1;
+}
+
+.photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 36px;
+  grid-column: -4/-1;
+}
+
+.special {
+  color: red;
+  font-weight: bold;
+}
+
+ul,
+ol {
+  font-size: 18px;
+}
+
+.list-title-hobbie {
+  margin-left: 50px;
+}
+
+.list-title-hobbies {
+  font-size: 24px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.list-title {
+  font-size: 24px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+.list-title-special {
+  font-size: 24px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.list-title-special h3 {
+  margin-left: -20px;
+  margin-top: -3px;
+}
+
+a {
+  color: #ccc;
+}
+
+a:hover,
+a:active {
+  color: #e67e22;
+}
+
+tr:nth-child(odd) {
+  text-align: center;
+  background-color: #8f9aa5;
+}
+
+tr:nth-child(even) {
+  text-align: center;
+  background-color: white;
+}
+
+tr:first-child td {
+  color: black;
+  width: 33%;
+}
+
+.link:link,
+.link:visited {
+  color: #000;
+}
+
+.link:hover,
+.link:active {
+  color: #e67e22;
+}
+
+.final {
+  margin: 50px 0 0 0;
+  grid-column: -3/-1;
+}
+
+.final div {
+  text-align: center;
+}
